@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    <h1>Quiz for HTML, CSS & Javascript</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>No</td>
+                <td colspan="2">Question</td>
+            </tr>
+            <tr>
+                <td rowspan="5">1</td>
+                <td colspan="2">Which tag is used to underline text?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q1a" name="q1" >
+                    <label for="q1a">&lt;a&gt; </label>
+                </td>
+                <td rowspan="4">
+                    <div id="resultQ1"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q1b" name="q1" >
+                    <label for="q1b">&lt;u&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q1c" name="q1">
+                    <label for="q1c">&lt;b&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q1d" name="q1" >
+                    <label for="q1d">&lt;l&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="5">2</td>
+                <td colspan="2">Which of the following is the correct syntax to add the external stylesheet in CSS?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q2a" name="q2" >
+                    <label for="q2a">&lt;style src = quiz.css&gt; </label>
+                </td>
+                <td rowspan="4">
+                    <div id="resultQ2"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q2b" name="q2" >
+                    <label for="q2b">&lt;style src = "quiz.css"&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q2c" name="q2" >
+                    <label for="q2c">&lt;stylesheet&gt; quiz.css &lt;/stylesheet&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q2d" name="q2" >
+                    <label for="q2d">&lt;link rel="stylesheet" type="quiz/css" href="quiz.css"&gt;</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="5">3</td>
+                <td colspan="2">Which of the following is the correct syntax to make the background-color of all
+                    paragraph elements to yellow?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q3a" name="q3" >
+                    <label for="q3a">p {background-color : yellow;} </label>
+                </td>
+                <td rowspan="4">
+                    <div id="resultQ3"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q3b" name="q3" >
+                    <label for="q3b">p {background-color : #yellow;}</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q3c" name="q3" >
+                    <label for="q3c">all {background-color : yellow;}</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q3d" name="q3" >
+                    <label for="q3d">all p {background-color : #yellow;}</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="5">4</td>
+                <td colspan="2">Which type of JavaScript language is ___</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q4a" name="q4">
+                    <label for="q4a">Object-Oriented </label>
+                </td>
+                <td rowspan="4">
+                    <div id="resultQ4"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q4b" name="q4" >
+                    <label for="q4b">Object-Based</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q4c" name="q4" >
+                    <label for="q4c">Assembly-language</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q4d" name="q4" >
+                    <label for="q4d">High-level</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="5">5</td>
+                <td colspan="2">What is the primary role of the "return ()" statement in a function body?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q5a" name="q5" >
+                    <label for="q5a">It returns the value and continues executing rest of the statements </label>
+                </td>
+                <td rowspan="4">
+                    <div id="resultQ5"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q5b" name="q5" >
+                    <label for="q5b">It returns the value and stops the program execution</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q5c" name="q5" >
+                    <label for="q5c">Stops executing the function and returns the value</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="q5d" name="q5">
+                    <label for="q5d">It returns the value and stops executing the function</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="4">6</td>
+                <td colspan="2">Which is the correct HTML statement to define the red color of the paragraph text?</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="q6a" name="q61">
+                    <label for="q6a">&lt; p style="color: #ff0000;" &gt; </label>
+                </td>
+                <td rowspan="3">
+                    <div id="resultQ6"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="q6b" name="q62" >
+                    <label for="q6b">&lt; p style="color: red;" &gt;</label>
+                </td>
+            </tr>            
+            <tr>
+                <td><input type="checkbox" id="q6c" name="q63" >
+                    <label for="q6c">None of the above</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">7</td>
+                <td colspan="2">How can a datatype be declared to be a constant type?</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="q7a" name="q7" value="">                    
+                </td>
+                <td >
+                    <div id="resultQ7"></div>
+                </td>
+            </tr>            
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+
+        </table>
+        <button type="button" id="btnSubmit" onclick="funSubmit()"> <span> Submit</span></button>
+    </form>
+</body>
+
+</html>
