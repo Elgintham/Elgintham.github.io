@@ -1,0 +1,47 @@
+#quizBody {
+    background-color: #CDB365;
+    color: #392503;
+}
+
+#quizForm {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: #AD9C47;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table tr td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#resultQ1,
+#resultQ2,
+#resultQ3,
+#resultQ4,
+#resultQ5 {
+    min-width: 100px;
+}
+
+#btnSubmit {
+    background-color: #AD9C47;
+    color: #392503;
+    padding: 10px;
+}
+
+#btnSub {
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}

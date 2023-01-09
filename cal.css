@@ -1,0 +1,32 @@
+#calForm {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: #000000;
+}
+
+table tr td button {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+table tr td button:active {
+    background-color: red;
+}
+
+table tr td input {
+    width: 404px;
+    height: 100px;
+}
+
+#result {
+    font-size: 40px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+}
